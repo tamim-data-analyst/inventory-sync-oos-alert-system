@@ -1,1 +1,6 @@
+SKU,Product,Good_Inventory,Alert_Status
+SKU_002,Product_B,25,OOS
+SKU_004,Product_D,12,OOS
+SKU_007,Product_G,10,OOS
+SKU_009,Product_I,40,OOS
 
