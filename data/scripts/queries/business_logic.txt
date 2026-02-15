@@ -1,0 +1,9 @@
+Good Inventory Logic:
+Good_Inventory = MIN(WMS_A_Stock, WMS_B_Stock)
+
+Out Of Stock Condition:
+IF SHC_Stock < 50 AND WMS_A_Stock < 50 AND WMS_B_Stock < 50
+THEN Alert_Status = 'OOS'
+
+Purpose:
+Avoid false alerts by triggering notification only when both platform stock and warehouse stock fall below safety threshold.
